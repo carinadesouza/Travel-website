@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <title>Project </title>
+    <link rel="stylesheet" type="text/css" href="registration.css"> 
+    <script type="text/javascript" src="login_signin.js"></script>
+</head>
+
+<body>
+    <div class="box-1"> 
+        <div class="fglow">
+        <h1>What A Trip </h1>
+        <p> A journey of a thousand miles begins with a single step.
+        </p>
+    </div> 
+</div>
+    <div>
+
+        <form id="form" action="test.php" method="POST" class="box-2" class="form-group1" >
+            <div>
+                <h2>Registration </h2>
+            </div>
+            <div class="project1-group">
+              <div class="form1"> 
+                <label  >First Name <span style="color:#ff0000">*</span>:</label>
+                <input type="text" name="first name" placeholder="First Name">  
+                </div> 
+            </div>  
+            <br>
+            <div class="project1-group">
+              <div class="form1">
+                <label>Email <span style="color:#ff0000">*</span>:</label> 
+                <input type="email" name="email" placeholder = "XYZ@gmail.com"> 
+                </div>
+            </div>   
+            <br>
+            <div class="project1-group">                     
+      <div class="form1">
+        <label>Phone Number <span style="color:#ff0000">*</span>:</label> 
+        <input type="telephone" name="telephone" placeholder = "9845xxxxxx">
+        </div> 
+            </div> 
+            <br>
+            <div class="project1-group">
+              <div class="form1">
+                  <label>Date Of Birth <span style="color:#ff0000">*</span>:</label>  
+                  <input type="date" name="Date" required> 
+                </div> 
+                </div>  
+                <br>
+                <div class="project1-group">
+                  <div class="form1">
+                      <label>Age <span style="color:#ff0000">*</span>:</label> 
+                      <input type="number" name="age" value="30">
+                      </div>   
+                    </div> 
+                    <br>
+            <div class="project1-group">
+            <div class="form1"> 
+              <label>Gender <span style="color:#ff0000">*</span>: </label>
+              <input type="radio" id="male" name="gender" value="male">Male
+              <input type="radio" id="female" name="gender" value="female">Female
+              <input type="radio" id="others" name="gender" value="others"> Others
+              </div> 
+            </div>  
+            <br>
+            <br>
+            <div class="form1"> 
+                <button class="button" name="login" onclick="validate()">Submit </button>
+            </div>
+            <br>
+        </form>
+    </div> 
+   
+</body>
+
+</html>

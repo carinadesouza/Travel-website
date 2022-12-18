@@ -1,0 +1,335 @@
+*{
+    margin: 0; 
+    padding: 0;
+  }
+    body {
+     
+      padding-top: 20px;
+      background-image: url('images/image.jpg'); 
+      background-attachment: fixed; 
+      background-size: cover; 
+      color: var(--dark); 
+      color: var(--Playfair);  
+    } 
+    
+    header{ 
+    
+    
+      color: rgba(68,24,0,0.5);
+     
+    
+    }   
+    .navbar {
+      overflow: hidden;
+      background-color: rgba(255,255,255,0.5); 
+      font-family: var(--Playfair); 
+      padding:0.5rem;
+      
+    } 
+    
+    .navbar h1{ 
+      padding-top: 20px;
+      color: rgb(68,24,0);
+    }
+    
+    
+    .dropdown {
+      float: right;
+      overflow: hidden; 
+      padding-right: 35px; 
+      
+     
+    } 
+    .navbar h1:hover{
+      color: white;
+    }
+    .nav a {
+      float: right;
+      font-size: 19px;
+      color:rgb(68,24,0); 
+      text-align: center;
+      padding: 1px 16px;
+      text-decoration: none; 
+      font-family: var(--Playfair);
+     padding-right: 50px; 
+    
+    }
+    .dropdown .dropbtn {
+      font-size: 19px;  
+      border: none;
+      outline: none;
+      color:rgb(68,24,0); 
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0; 
+      padding-bottom: 2px;
+    }
+    
+    
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1; 
+      
+    }
+    
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left; 
+      
+    }
+    
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    } 
+  .class1{  
+    margin-top: 10px;
+    margin-left:450px; 
+    background-color: white; 
+    padding:10px; 
+    margin-right:40px;  
+    border:2px soild groove;
+    border-radius: 5px; 
+    box-shadow: 4px 4px rgb(110, 79, 63);
+    transition:  all 0.5s ease;
+} 
+.class1:hover {
+    transform: scale(1.1); 
+    background-color:rgb(168, 122, 99) ; 
+    
+} 
+.main-group{
+    display: flex;
+    flex-wrap: nowrap; 
+    color:rgb(0, 0, 0);
+} 
+.group1{
+    flex :2;
+} 
+.group2{
+    flex: 2;
+}
+.group3{
+    flex :2;
+}
+.group4{
+    flex: 2; 
+    
+} 
+h4{
+    padding-left: 10px;
+} 
+h5{ 
+    padding-left:10px;
+}  
+.group4 button{ 
+    border: 10px;
+    border-radius: 5px;
+    background-color: rgb(68,24,0); 
+    color: white; 
+    width: 80%;  
+    text-decoration: none; 
+    margin:30px; 
+    padding: 10px;
+}
+.line {
+  width: 50px;
+  height: 2px;
+  background: #fff;
+  transform: translate(-50%, -50%); 
+bottom:10%
+}
+
+.line::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(68,24,0);
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+      left: 0;
+  }
+
+  50% {
+      left: 100%;
+  }
+
+  0% {
+      left: 0;
+  }
+}
+
+  .box-1 {  
+  color: rgb(255, 255, 255);
+  border-radius:50px;
+  float:left;
+  width:30%; 
+  font-weight:bold;
+  margin-top:146px;
+  margin-left:200px; 
+  user-select:none; 
+  font-size: 20px;
+  } 
+  .box-1:hover {
+     color: rgb(131, 65, 30);
+  }
+  
+  .box-2{ 
+  border:2px; 
+  border-radius:5px;
+  float:right;
+  margin-top:100px;
+  width:30%;
+  margin-right:200px;  
+  color:rgb(68,24,0); 
+  background-color: white; 
+  padding:15px;  
+  user-select:none; 
+  transition:  all 0.5s ease;
+  }   
+  .box-2:hover {
+          transform: scale(1.1);
+      }
+  
+  .box-2 input{
+  padding:9px; 
+  width:80%; 
+  } 
+  
+  
+  .box-2 .project1-group1{
+  padding-bottom:15px; 
+  }  
+  .box-2 input[type="submit"] { 
+      background-color:rgb(68,24,0);  
+      margin-top:10px; 
+      margin-left:40px; 
+      width:80%;
+      border-radius:100px;  
+      border-color:white ; 
+      cursor:pointer; 
+      color: #fff;
+      } 
+  
+      .box-2 input[type="telno"] {  
+        width:70%; 
+        }  
+  
+  .box-2 input[type="checkbox"] {  
+  width:5%; 
+  }  
+  .box-2 input[type="radio"] {  
+  width:5%; 
+  }
+ select{
+  width:30%;
+  padding:10px;
+ } 
+ .box-2 .number{
+  width:60%;
+}
+  .project1-group2{
+  color:black; 
+  font-size: 1em;
+  font-style:ariel; 
+  } 
+  
+  a{  
+  
+  margin-top:15px;
+  text-decoration:none; 
+  color:rgb(68,24,0); 
+  } 
+  a:hover{
+  color:rgb(163, 154, 154);}
+  
+  #star{
+      color: red;
+  } 
+  
+  .project1-group2 a{ 
+      background-color:rgb(68,24,0);  
+      color: white;
+      margin-top:10px; 
+      margin-left:150px; 
+      width:80%; 
+      padding: 11px; 
+      border: none;
+      border-radius:5px;  
+      border-color:white ; 
+      cursor:pointer; 
+      text-decoration: none;  
+      
+  } 
+  #project1-group2 a{ 
+      background-color:rgb(68,24,0);  
+      color: white;
+      margin-top:10px; 
+      margin-left:150px; 
+      width:80%; 
+      padding: 11px; 
+      border: none;
+      border-radius:5px;  
+      border-color:white ; 
+      cursor:pointer; 
+      text-decoration: none;  
+      
+  } 
+ 
+  .project1-group2 a:hover{
+      color: white;
+  } 
+  .button{ 
+      margin-top: 10px;
+      padding: 10px; 
+      border: 10px;
+      border-radius: 5px;
+      background-color: rgb(68,24,0); 
+      color: white; 
+      width: 20%;  
+      text-decoration: none; 
+      margin-left: 150px; 
+     
+  
+      
+  } 
+  .form1 a{
+      color: white;
+  } 
+  @keyframes flash {
+      /* (B1) FROM RED */
+      from {
+        text-shadow:
+        0 0 5px #ffffff, 0 0 10px #ffffff,
+        0 0 20px #ffffff, 0 0 40px #ffffff;
+      }
+      /* (B2) TO BLUE */
+      to {
+        text-shadow:
+        0 0 5px rgb(131, 65, 30), 0 0 10px rgb(131, 65, 30),
+        0 0 20px rgb(131, 65, 30), 0 0 40px rgb(131, 65, 30);
+      }
+    }
+    
+    /* (C) ATTACH ANIMATION */
+    /* ANIMATION: KEYFRAMES DURATION FUNCTION REPEAT DIRECTION */
+    .fglow { animation: flash 0.2s ease infinite alternate; }

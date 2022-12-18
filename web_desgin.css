@@ -1,0 +1,279 @@
+*{
+  margin: 0; 
+  padding: 0;
+}
+  body {
+   
+    padding-top: 20px;
+    background-image: url('images/image.jpg'); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    color: var(--dark); 
+    color: var(--Playfair);  
+  } 
+  
+  header{ 
+    
+    
+    color: rgba(68,24,0,0.5);
+   
+  
+  }    
+  
+  .navbar {
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.5); 
+    font-family: var(--Playfair); 
+    padding:0.5rem;
+   
+    
+  } 
+  
+  .navbar h1{ 
+    padding-top: 20px;
+    color: rgb(68,24,0);
+  }
+  .navbar h1:hover{
+    color: white;
+  }
+  
+  .dropdown {
+    float: right;
+    overflow: hidden; 
+    padding-right: 35px; 
+    
+   
+  }
+  .nav a {
+    float: right;
+    font-size: 19px;
+    color:rgb(68,24,0); 
+    text-align: center;
+    padding: 17px 16px;
+    text-decoration: none; 
+    font-family: var(--Playfair);
+   padding-right: 50px; 
+  
+  }
+  .dropdown .dropbtn {
+    font-size: 19px;  
+    border: none;
+    outline: none;
+    color:rgb(68,24,0); 
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0; 
+    padding-bottom: 2px;
+  }
+  
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; 
+    
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left; 
+    
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #fff;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } 
+  .box-2{ 
+    border:2px; 
+    border-radius:5px;
+    float:right;
+    margin-top:100px;
+    width:30%;
+    margin-right:200px;  
+    color:rgb(68,24,0); 
+    background-color: white; 
+    padding:15px;  
+    user-select:none; 
+    transition:  all 0.5s ease; 
+    
+    }    
+    .box-2:hover {
+      transform: scale(1.1);
+  }
+    .box-2 section{
+      padding:20px; 
+
+    } 
+    .button{ 
+      margin-top: 10px;
+      padding: 10px; 
+      border: 10px;
+      border-radius: 5px;
+      background-color: rgb(68,24,0); 
+      color: white; 
+      width: 20%;  
+      text-decoration: none; 
+      margin-left: 150px;  
+      
+     
+  
+      
+  } 
+  .form1 a{ 
+    
+      color: white;
+  }   
+  select{
+    padding: 8px; 
+    width: 35%; 
+   
+  } 
+  .project1-group input[type="date"]{
+    padding: 4px; 
+    width: 26%;
+  }
+  #to-design{
+    padding-left: 37px;
+  } 
+  #return-design{
+    padding-left: 17px;
+  } 
+
+  .open-button {
+    background-color:white;
+    color: black;
+    padding: 8px 8px; 
+    border: 2px;
+    border-radius:5px;
+    cursor: pointer;
+    border-style:ridge;
+    opacity: 0.8;
+    border-color:rgba(39, 34, 34, 0.614);
+    bottom: 23px;
+    right: 28px;
+    width: 100px;
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    bottom: 0;
+    right: 15px; 
+    margin-left: 10px;
+    border: 3px groove #f1f1f1; 
+    background-color: transparent; 
+    border-radius: 3px;
+    
+  } 
+  
+  
+  .open-button-design{
+    padding-left: 40px; 
+    padding-top: 40px; 
+   
+  } 
+  .popup input[type="number"]{ 
+    width: 13%;
+  }  
+  .btn-design{
+    padding-left: 256px; 
+
+  } 
+  .btn{
+    padding:5px; 
+    border-radius: 4px; 
+    color: white;
+    background-color:rgb(68,24,0) ;
+  } 
+  .cancel{
+    padding:5px; 
+    border-radius: 4px; 
+    color: white;
+    background-color:rgb(68,24,0) ;
+  }
+  .line {
+    width: 50px;
+    height: 2px;
+    background: #fff;
+    transform: translate(-50%, -50%); 
+   
+} 
+.passager{
+  padding-left: 40px;
+} 
+.passagerdesign{padding:6px 12px;}
+
+.line::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(68,24,0);
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: 100%;
+    }
+
+    0% {
+        left: 0;
+    }
+} 
+.project1-group .cabsDesgin{
+width:40%;
+padding: 5px;
+} 
+.box-2 input[type="submit"] { 
+  background-color:rgb(68,24,0);  
+  margin-top:10px; 
+  margin-left:40px; 
+  width:50%;
+  border-radius:100px;  
+  border-color:white ; 
+  cursor:pointer; 
+  color: white; 
+  padding: 10px; 
+ 
+  } 
+.boxs{
+  padding-left: 60px;
+} 
+#form1 {
+  padding-left: 90px;
+}  
+.del{
+  border:none; 
+  padding: 10px; 
+  background-color: white; 
+  cursor:pointer;
+}  
+
+.update{
+  
+    border:none; 
+    padding: 15px; 
+    background-color: white; 
+    cursor:pointer;
+
+  }
